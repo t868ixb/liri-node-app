@@ -107,7 +107,6 @@ if (program === "concert-this") {
     });
 
 } else if (program === "do-what-it-says") {
-    console.log("That's right, do it buddy")
 
     fs.readFile("./random.txt", "utf8", function (error, data) {
 
